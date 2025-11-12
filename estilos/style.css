@@ -103,3 +103,36 @@ div#social a:hover{
   color: var(--reverse-highlight);
   
 }
+
+section#details{
+  grid-column: 2;
+}
+
+article{
+  background-color: var(--card-background);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+article h2{
+  color: var(--highlight);
+  margin-bottom: 10px;
+}
+
+/* trabalado o iframe do fideo */
+.video-conteiner{
+  position: relative;
+  width: 100%;
+  margin: auto;
+  aspect-ratio: 16/9;
+  
+}
+.video-conteiner iframe{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+/* fim do ifrem do fideo */
