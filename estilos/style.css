@@ -37,6 +37,9 @@ header{
   background-color: var(--highlight);
   color: var(--text);
   padding: 10px;
+  position: sticky;
+  top:0;
+  z-index: 1000;
 }
 
 nav#menu ul{
